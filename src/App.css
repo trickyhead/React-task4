@@ -1,0 +1,37 @@
+.App {
+  background-color: rgb(187, 218, 223);
+  color: #0000008b;
+  padding: 15px;
+}
+table,
+th,
+td {
+  border: 3px solid #ccc;
+}
+
+th,
+td {
+  padding: 9px;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: rgb(250, 234, 234);
+}
+
+.user-images {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 17px;
+}
+
+.user-image {
+  text-align: left;
+  color: #f4eeee;
+  background-color: #fff;
+  padding: 15px;
+  border: 9px solid #000000;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
